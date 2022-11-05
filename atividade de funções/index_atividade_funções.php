@@ -60,11 +60,23 @@
 
     $valor = array("11","21","91","41");
 
-    echo"<pre>";
-    print_r($valor);
-    echo"</pre>";
+        function maiorNum($numeros){
+            $soma = 0;
+            $i = 0;
+            while( $i < 4 ){
+                $soma += $numeros[$i];
+                $i++;
+            }
+            return "A soma dos valores que está no vetor é igual a : $soma";
+        }
 
-    echo "O maior valor é o ".max($valor)."";
+
+
+        echo "<pre>";
+        print_r($valor);
+        echo "</pre>";
+
+        echo maiorNum($valor);
     
 ?>
 
