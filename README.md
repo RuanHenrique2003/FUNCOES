@@ -1,2 +1,2 @@
 # FUNCOES
-<b>- Ruan Henrique Marques de Moura</b>
+<h>- Ruan Henrique Marques de Moura</h>
